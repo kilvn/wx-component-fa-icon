@@ -34,6 +34,8 @@ export default {
 | size | int | 24 |图标大小|
 | @click | EventHandle |-|点击 Icon 触发事件|
 
+## 图标颜色
+
 组件集成了一些bootstrap 4 的默认颜色，可以直接调用：
 
 颜色效果参考：https://kilvn.github.io/wx-component-fa-icon/
@@ -60,7 +62,7 @@ export default {
 
 <font color="#ddd">text-grey</font>
 
+
 ```
 <fa-icon type="home text-primary" size="22"></fa-icon>
 ```
-
