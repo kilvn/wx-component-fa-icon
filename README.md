@@ -50,3 +50,7 @@ export default {
 <font color="#fff">text-white</font>
 <font color="#ddd">text-grey</font>
 
+```
+<fa-icon type="home text-primary" size="22"></fa-icon>
+```
+
