@@ -39,15 +39,25 @@ export default {
 颜色效果参考：https://kilvn.github.io/wx-component-fa-icon/
 
 <font color="#007bff">text-primary</font>
+
 <font color="#6c757d">text-secondary</font>
+
 <font color="#28a745">text-success</font>
+
 <font color="#dc3545">text-danger</font>
+
 <font color="#ffc107">text-warning</font>
+
 <font color="#17a2b8">text-info</font>
+
 <font color="#f8f9fa">text-light</font>
+
 <font color="#343a40">text-dark</font>
+
 <font color="rgb(138, 147, 155)">text-muted</font>
+
 <font color="#fff">text-white</font>
+
 <font color="#ddd">text-grey</font>
 
 ```
