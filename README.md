@@ -23,7 +23,7 @@ export default {
 <fa-icon type="home" size="22" color="#666" @click="testJS"></fa-icon>
 ```
 
-图标效果参考：[图标库 – Font Awesome 中文网](http://www.fontawesome.com.cn/faicons/) www.fontawesome.com.cn
+图标效果参考：Font Awesome 中文网 http://www.fontawesome.com.cn/faicons/
 
 ## Icon 属性说明：
 
@@ -36,14 +36,14 @@ export default {
 
 组件集成了一些bootstrap 4 的默认颜色，可以直接调用：
 
-$\color{#007bff}{text-primary}$
-$\color{#6c757d}{text-secondary}$
-$\color{#28a745}{text-success}$
-$\color{#dc3545}{text-danger}$
-$\color{#ffc107}{text-warning}$
-$\color{#17a2b8}{text-info}$
-$\color{#f8f9fa}{text-light}$
-$\color{#343a40}{text-dark}$
-$\color{rgb(138, 147, 155)}{text-muted}$
-$\color{#fff}{text-white}$
-$\color{#ddd}{text-grey}$
+<font color="#007bff">text-primary</font>
+<font color="#6c757d">text-secondary</font>
+<font color="#28a745">text-success</font>
+<font color="#dc3545">text-danger</font>
+<font color="#ffc107">text-warning</font>
+<font color="#17a2b8">text-info</font>
+<font color="#f8f9fa">text-light</font>
+<font color="#343a40">text-dark</font>
+<font color="rgb(138, 147, 155)">text-muted</font>
+<font color="#fff">text-white</font>
+<font color="#ddd">text-grey</font>
