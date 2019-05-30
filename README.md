@@ -36,14 +36,25 @@ export default {
 
 组件集成了一些bootstrap 4 的默认颜色，可以直接调用：
 
-<font color="#007bff">text-primary</font>
-<font color="#6c757d">text-secondary</font>
-<font color="#28a745">text-success</font>
-<font color="#dc3545">text-danger</font>
-<font color="#ffc107">text-warning</font>
-<font color="#17a2b8">text-info</font>
-<font color="#f8f9fa">text-light</font>
-<font color="#343a40">text-dark</font>
-<font color="rgb(138, 147, 155)">text-muted</font>
-<font color="#fff">text-white</font>
-<font color="#ddd">text-grey</font>
+text-primary <font color="#007bff">text-primary</font>
+
+text-secondary <font color="#6c757d">text-secondary</font>
+
+text-success <font color="#28a745">text-success</font>
+
+text-danger <font color="#dc3545">text-danger</font>
+
+text-warning <font color="#ffc107">text-warning</font>
+
+text-info <font color="#17a2b8">text-info</font>
+
+text-light <font color="#f8f9fa">text-light</font>
+
+text-dark <font color="#343a40">text-dark</font>
+
+text-muted <font color="rgb(138, 147, 155)">text-muted</font>
+
+text-white <font color="#fff">text-white</font>
+
+text-grey <font color="#ddd">text-grey</font>
+
