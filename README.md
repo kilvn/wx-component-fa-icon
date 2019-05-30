@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# wx-component-fa-icon
+微信小程序 fa-icon 图标插件
 
-You can use the [editor on GitHub](https://github.com/kilvn/wx-component-fa-icon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+基于 Font-Awesome 4.7.0 版构建，个人觉得uni-icon使用方便，所以参考了uni-icon的形式，使用方式和 uni-icon 插件类似。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+组件名：fa-icon
 
-### Markdown
+## 使用方式：
+在 `script` 中引用组件
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+import faIcon from "@/components/fa-icon/fa-icon.vue"
+export default {
+    components: {
+        faIcon
+    }
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+在 `template` 中使用组件
 
-### Jekyll Themes
+```
+<fa-icon type="home" size="22" color="#666" @click="testJS"></fa-icon>
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kilvn/wx-component-fa-icon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+图标效果参考：[图标库 – Font Awesome 中文网](http://www.fontawesome.com.cn/faicons/) www.fontawesome.com.cn
 
-### Support or Contact
+## Icon 属性说明：
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| 属性名 | 类型 | 默认值 | 说明 |
+|:------:|:------:|:------:|:------|
+| type |string | - |图标图案，在Font Awesome 中文网4.7.0版本中的图标都可以，不需要 fa- 前缀|
+| color |string|-|图标颜色|
+| size | int | 24 |图标大小|
+| @click | EventHandle |-|点击 Icon 触发事件|
+
+组件集成了一些bootstrap 4 的默认颜色，可以直接调用：
+
+$\color{#007bff}{text-primary}$
+$\color{#6c757d}{text-secondary}$
+$\color{#28a745}{text-success}$
+$\color{#dc3545}{text-danger}$
+$\color{#ffc107}{text-warning}$
+$\color{#17a2b8}{text-info}$
+$\color{#f8f9fa}{text-light}$
+$\color{#343a40}{text-dark}$
+$\color{rgb(138, 147, 155)}{text-muted}$
+$\color{#fff}{text-white}$
+$\color{#ddd}{text-grey}$
